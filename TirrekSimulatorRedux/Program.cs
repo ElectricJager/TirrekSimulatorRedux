@@ -1,4 +1,19 @@
-﻿using System;
+﻿//This file is part of Tirrek Simulator Redux.
+
+//    Tirrek Simulator Redux is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+
+//    Tirrek Simulator Redux is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+
+//    You should have received a copy of the GNU General Public License
+//    along with Tirrek Simulator Redux.  If not, see <https://www.gnu.org/licenses/>.
+
+using System;
 
 namespace TirrekSimulatorRedux
 {
@@ -46,7 +61,21 @@ namespace TirrekSimulatorRedux
         
         static void SplashScreen()
         {
-            Console.WriteLine("Tirrek Simulator Redux\nElectricJager 2021\n");
+            Console.WriteLine("Tirrek Simulator Redux\n");
+            Console.WriteLine("Copyright (C) 2021  ElectricJager\n" +
+                "This program is free software: you can redistribute it and / or modify\n" +
+                "it under the terms of the GNU General Public License as published by\n" +
+                "the Free Software Foundation, either version 3 of the License, or\n" +
+                "(at your option) any later version.\n\n" +
+
+                "This program is distributed in the hope that it will be useful,\n" +
+                "but WITHOUT ANY WARRANTY; without even the implied warranty of\n" +
+                "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the\n" +
+                "GNU General Public License for more details.\n\n" +
+
+                "You should have received a copy of the GNU General Public License\n" +
+                "along with this program.If not, see <https://www.gnu.org/licenses/>.\n\n" +
+                "https://github.com/ElectricJager/TirrekSimulatorRedux\n");
         }
 
         static void NewDay()
