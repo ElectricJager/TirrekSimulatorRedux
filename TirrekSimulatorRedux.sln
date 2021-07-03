@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TirrekSimulatorRedux", "TirrekSimulatorRedux\TirrekSimulatorRedux.csproj", "{A0729006-B938-474D-95BC-73DFDC0BC1ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirrekSimulatorRedux", "TirrekSimulatorRedux\TirrekSimulatorRedux.csproj", "{343DF031-A20B-4B5B-B036-D2629B870FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0729006-B938-474D-95BC-73DFDC0BC1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0729006-B938-474D-95BC-73DFDC0BC1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0729006-B938-474D-95BC-73DFDC0BC1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0729006-B938-474D-95BC-73DFDC0BC1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343DF031-A20B-4B5B-B036-D2629B870FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343DF031-A20B-4B5B-B036-D2629B870FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343DF031-A20B-4B5B-B036-D2629B870FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343DF031-A20B-4B5B-B036-D2629B870FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {045D1AE5-9891-4E6B-B56D-A3C9E7C458FA}
+		SolutionGuid = {A41017E8-0C41-455A-9D4D-C7F50ED0736C}
 	EndGlobalSection
 EndGlobal
