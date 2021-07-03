@@ -15,7 +15,7 @@ namespace TirrekSimulatorRedux
         public Form1()
         {
             InitializeComponent();
-            label2.Text = $"Paran: {Program.Stats.money}TL Kekoluk levelin: {Program.Stats.kekoluk}";
+            moneyAndKekoluk.Text = $"Paran: {Program.Stats.money}TL Kekoluk levelin: {Program.Stats.kekoluk}";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
