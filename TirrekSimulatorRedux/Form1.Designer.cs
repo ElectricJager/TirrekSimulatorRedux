@@ -30,7 +30,7 @@ namespace TirrekSimulatorRedux
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tirrekImg = new System.Windows.Forms.PictureBox();
             this.title = new System.Windows.Forms.Label();
             this.money = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,18 +41,26 @@ namespace TirrekSimulatorRedux
             this.hunger = new System.Windows.Forms.Label();
             this.thirst = new System.Windows.Forms.Label();
             this.kekoluk = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.save = new System.Windows.Forms.Button();
+            this.disketteImg = new System.Windows.Forms.PictureBox();
+            this.titleMain = new System.Windows.Forms.Label();
+            this.version = new System.Windows.Forms.Label();
+            this.electricJager = new System.Windows.Forms.Label();
+            this.titleFood = new System.Windows.Forms.Label();
+            this.donerImg = new System.Windows.Forms.PictureBox();
+            this.donerInfo = new System.Windows.Forms.Label();
+            this.donerBuy = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // tirrekImg
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            resources.ApplyResources(this.tirrekImg, "tirrekImg");
+            this.tirrekImg.Name = "tirrekImg";
+            this.tirrekImg.TabStop = false;
+            this.tirrekImg.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // title
             // 
@@ -107,24 +115,68 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.kekoluk, "kekoluk");
             this.kekoluk.Name = "kekoluk";
             // 
-            // button1
+            // save
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.save, "save");
+            this.save.Name = "save";
+            this.save.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // disketteImg
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            resources.ApplyResources(this.disketteImg, "disketteImg");
+            this.disketteImg.Name = "disketteImg";
+            this.disketteImg.TabStop = false;
+            // 
+            // titleMain
+            // 
+            resources.ApplyResources(this.titleMain, "titleMain");
+            this.titleMain.Name = "titleMain";
+            // 
+            // version
+            // 
+            resources.ApplyResources(this.version, "version");
+            this.version.Name = "version";
+            // 
+            // electricJager
+            // 
+            resources.ApplyResources(this.electricJager, "electricJager");
+            this.electricJager.Name = "electricJager";
+            // 
+            // titleFood
+            // 
+            resources.ApplyResources(this.titleFood, "titleFood");
+            this.titleFood.Name = "titleFood";
+            // 
+            // donerImg
+            // 
+            resources.ApplyResources(this.donerImg, "donerImg");
+            this.donerImg.Name = "donerImg";
+            this.donerImg.TabStop = false;
+            // 
+            // donerInfo
+            // 
+            resources.ApplyResources(this.donerInfo, "donerInfo");
+            this.donerInfo.Name = "donerInfo";
+            // 
+            // donerBuy
+            // 
+            resources.ApplyResources(this.donerBuy, "donerBuy");
+            this.donerBuy.Name = "donerBuy";
+            this.donerBuy.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.donerBuy);
+            this.Controls.Add(this.donerInfo);
+            this.Controls.Add(this.donerImg);
+            this.Controls.Add(this.titleFood);
+            this.Controls.Add(this.electricJager);
+            this.Controls.Add(this.version);
+            this.Controls.Add(this.titleMain);
+            this.Controls.Add(this.disketteImg);
+            this.Controls.Add(this.save);
             this.Controls.Add(this.kekoluk);
             this.Controls.Add(this.thirst);
             this.Controls.Add(this.hunger);
@@ -135,11 +187,12 @@ namespace TirrekSimulatorRedux
             this.Controls.Add(this.label3);
             this.Controls.Add(this.money);
             this.Controls.Add(this.title);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.tirrekImg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donerImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,7 +200,7 @@ namespace TirrekSimulatorRedux
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox tirrekImg;
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.Label money;
         private System.Windows.Forms.Label label3;
@@ -158,8 +211,15 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Label hunger;
         private System.Windows.Forms.Label thirst;
         private System.Windows.Forms.Label kekoluk;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button save;
+        private System.Windows.Forms.PictureBox disketteImg;
+        private System.Windows.Forms.Label titleMain;
+        private System.Windows.Forms.Label version;
+        private System.Windows.Forms.Label electricJager;
+        private System.Windows.Forms.Label titleFood;
+        private System.Windows.Forms.PictureBox donerImg;
+        private System.Windows.Forms.Label donerInfo;
+        private System.Windows.Forms.Button donerBuy;
     }
 }
 
