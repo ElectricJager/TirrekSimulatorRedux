@@ -50,9 +50,21 @@ namespace TirrekSimulatorRedux
             this.donerImg = new System.Windows.Forms.PictureBox();
             this.donerInfo = new System.Windows.Forms.Label();
             this.donerBuy = new System.Windows.Forms.Button();
+            this.ayranImg = new System.Windows.Forms.PictureBox();
+            this.ayranInfo = new System.Windows.Forms.Label();
+            this.ayranBuy = new System.Windows.Forms.Button();
+            this.topkekImg = new System.Windows.Forms.PictureBox();
+            this.topkekInfo = new System.Windows.Forms.Label();
+            this.waterImg = new System.Windows.Forms.PictureBox();
+            this.topkekBuy = new System.Windows.Forms.Button();
+            this.waterInfo = new System.Windows.Forms.Label();
+            this.waterBuy = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.waterImg)).BeginInit();
             this.SuspendLayout();
             // 
             // tirrekImg
@@ -164,10 +176,70 @@ namespace TirrekSimulatorRedux
             this.donerBuy.Name = "donerBuy";
             this.donerBuy.UseVisualStyleBackColor = true;
             // 
+            // ayranImg
+            // 
+            resources.ApplyResources(this.ayranImg, "ayranImg");
+            this.ayranImg.Name = "ayranImg";
+            this.ayranImg.TabStop = false;
+            // 
+            // ayranInfo
+            // 
+            resources.ApplyResources(this.ayranInfo, "ayranInfo");
+            this.ayranInfo.Name = "ayranInfo";
+            // 
+            // ayranBuy
+            // 
+            resources.ApplyResources(this.ayranBuy, "ayranBuy");
+            this.ayranBuy.Name = "ayranBuy";
+            this.ayranBuy.UseVisualStyleBackColor = true;
+            // 
+            // topkekImg
+            // 
+            resources.ApplyResources(this.topkekImg, "topkekImg");
+            this.topkekImg.Name = "topkekImg";
+            this.topkekImg.TabStop = false;
+            // 
+            // topkekInfo
+            // 
+            resources.ApplyResources(this.topkekInfo, "topkekInfo");
+            this.topkekInfo.Name = "topkekInfo";
+            // 
+            // waterImg
+            // 
+            resources.ApplyResources(this.waterImg, "waterImg");
+            this.waterImg.Name = "waterImg";
+            this.waterImg.TabStop = false;
+            // 
+            // topkekBuy
+            // 
+            resources.ApplyResources(this.topkekBuy, "topkekBuy");
+            this.topkekBuy.Name = "topkekBuy";
+            this.topkekBuy.UseVisualStyleBackColor = true;
+            // 
+            // waterInfo
+            // 
+            resources.ApplyResources(this.waterInfo, "waterInfo");
+            this.waterInfo.Name = "waterInfo";
+            // 
+            // waterBuy
+            // 
+            resources.ApplyResources(this.waterBuy, "waterBuy");
+            this.waterBuy.Name = "waterBuy";
+            this.waterBuy.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.waterBuy);
+            this.Controls.Add(this.waterInfo);
+            this.Controls.Add(this.topkekBuy);
+            this.Controls.Add(this.waterImg);
+            this.Controls.Add(this.topkekInfo);
+            this.Controls.Add(this.topkekImg);
+            this.Controls.Add(this.ayranBuy);
+            this.Controls.Add(this.ayranInfo);
+            this.Controls.Add(this.ayranImg);
             this.Controls.Add(this.donerBuy);
             this.Controls.Add(this.donerInfo);
             this.Controls.Add(this.donerImg);
@@ -193,6 +265,9 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.waterImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,6 +295,15 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.PictureBox donerImg;
         private System.Windows.Forms.Label donerInfo;
         private System.Windows.Forms.Button donerBuy;
+        private System.Windows.Forms.PictureBox ayranImg;
+        private System.Windows.Forms.Label ayranInfo;
+        private System.Windows.Forms.Button ayranBuy;
+        private System.Windows.Forms.PictureBox topkekImg;
+        private System.Windows.Forms.Label topkekInfo;
+        private System.Windows.Forms.PictureBox waterImg;
+        private System.Windows.Forms.Button topkekBuy;
+        private System.Windows.Forms.Label waterInfo;
+        private System.Windows.Forms.Button waterBuy;
     }
 }
 
