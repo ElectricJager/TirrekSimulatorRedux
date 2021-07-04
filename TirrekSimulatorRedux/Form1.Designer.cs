@@ -64,10 +64,19 @@ namespace TirrekSimulatorRedux
             this.tofasTitle = new System.Windows.Forms.Label();
             this.tofasPrice = new System.Windows.Forms.Label();
             this.tofasBuy = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bmwImg = new System.Windows.Forms.PictureBox();
+            this.bmwTitle = new System.Windows.Forms.Label();
+            this.bmwPrice = new System.Windows.Forms.Label();
+            this.bmwBuy = new System.Windows.Forms.Button();
+            this.titleKnife = new System.Windows.Forms.Label();
+            this.flipImg = new System.Windows.Forms.PictureBox();
+            this.flipTitle = new System.Windows.Forms.Label();
+            this.flipPrice = new System.Windows.Forms.Label();
+            this.butterflyImg = new System.Windows.Forms.PictureBox();
+            this.butterflyTitle = new System.Windows.Forms.Label();
+            this.butterflyPrice = new System.Windows.Forms.Label();
+            this.flipBuy = new System.Windows.Forms.Button();
+            this.butterflyBuy = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
@@ -75,7 +84,9 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.waterImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tofasImg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmwImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flipImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyImg)).BeginInit();
             this.SuspendLayout();
             // 
             // tirrekImg
@@ -265,36 +276,94 @@ namespace TirrekSimulatorRedux
             this.tofasBuy.Name = "tofasBuy";
             this.tofasBuy.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // bmwImg
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            resources.ApplyResources(this.bmwImg, "bmwImg");
+            this.bmwImg.Name = "bmwImg";
+            this.bmwImg.TabStop = false;
             // 
-            // label1
+            // bmwTitle
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.bmwTitle, "bmwTitle");
+            this.bmwTitle.Name = "bmwTitle";
             // 
-            // label2
+            // bmwPrice
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.bmwPrice, "bmwPrice");
+            this.bmwPrice.Name = "bmwPrice";
             // 
-            // button1
+            // bmwBuy
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.bmwBuy, "bmwBuy");
+            this.bmwBuy.Name = "bmwBuy";
+            this.bmwBuy.UseVisualStyleBackColor = true;
+            // 
+            // titleKnife
+            // 
+            resources.ApplyResources(this.titleKnife, "titleKnife");
+            this.titleKnife.Name = "titleKnife";
+            // 
+            // flipImg
+            // 
+            resources.ApplyResources(this.flipImg, "flipImg");
+            this.flipImg.Name = "flipImg";
+            this.flipImg.TabStop = false;
+            // 
+            // flipTitle
+            // 
+            resources.ApplyResources(this.flipTitle, "flipTitle");
+            this.flipTitle.Name = "flipTitle";
+            // 
+            // flipPrice
+            // 
+            resources.ApplyResources(this.flipPrice, "flipPrice");
+            this.flipPrice.Name = "flipPrice";
+            // 
+            // butterflyImg
+            // 
+            resources.ApplyResources(this.butterflyImg, "butterflyImg");
+            this.butterflyImg.Name = "butterflyImg";
+            this.butterflyImg.TabStop = false;
+            // 
+            // butterflyTitle
+            // 
+            resources.ApplyResources(this.butterflyTitle, "butterflyTitle");
+            this.butterflyTitle.Name = "butterflyTitle";
+            // 
+            // butterflyPrice
+            // 
+            resources.ApplyResources(this.butterflyPrice, "butterflyPrice");
+            this.butterflyPrice.Name = "butterflyPrice";
+            // 
+            // flipBuy
+            // 
+            resources.ApplyResources(this.flipBuy, "flipBuy");
+            this.flipBuy.Name = "flipBuy";
+            this.flipBuy.UseVisualStyleBackColor = true;
+            // 
+            // butterflyBuy
+            // 
+            resources.ApplyResources(this.butterflyBuy, "butterflyBuy");
+            this.butterflyBuy.Name = "butterflyBuy";
+            this.butterflyBuy.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.butterflyBuy);
+            this.Controls.Add(this.flipBuy);
+            this.Controls.Add(this.butterflyPrice);
+            this.Controls.Add(this.butterflyTitle);
+            this.Controls.Add(this.butterflyImg);
+            this.Controls.Add(this.flipPrice);
+            this.Controls.Add(this.flipTitle);
+            this.Controls.Add(this.flipImg);
+            this.Controls.Add(this.titleKnife);
+            this.Controls.Add(this.bmwBuy);
+            this.Controls.Add(this.bmwPrice);
+            this.Controls.Add(this.bmwTitle);
+            this.Controls.Add(this.bmwImg);
             this.Controls.Add(this.tofasBuy);
             this.Controls.Add(this.tofasPrice);
             this.Controls.Add(this.tofasTitle);
@@ -338,7 +407,9 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.waterImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tofasImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmwImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flipImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.butterflyImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,10 +451,19 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Label tofasTitle;
         private System.Windows.Forms.Label tofasPrice;
         private System.Windows.Forms.Button tofasBuy;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox bmwImg;
+        private System.Windows.Forms.Label bmwTitle;
+        private System.Windows.Forms.Label bmwPrice;
+        private System.Windows.Forms.Button bmwBuy;
+        private System.Windows.Forms.Label titleKnife;
+        private System.Windows.Forms.PictureBox flipImg;
+        private System.Windows.Forms.Label flipTitle;
+        private System.Windows.Forms.Label flipPrice;
+        private System.Windows.Forms.PictureBox butterflyImg;
+        private System.Windows.Forms.Label butterflyTitle;
+        private System.Windows.Forms.Label butterflyPrice;
+        private System.Windows.Forms.Button flipBuy;
+        private System.Windows.Forms.Button butterflyBuy;
     }
 }
 
