@@ -59,12 +59,23 @@ namespace TirrekSimulatorRedux
             this.topkekBuy = new System.Windows.Forms.Button();
             this.waterInfo = new System.Windows.Forms.Label();
             this.waterBuy = new System.Windows.Forms.Button();
+            this.titleCar = new System.Windows.Forms.Label();
+            this.tofasImg = new System.Windows.Forms.PictureBox();
+            this.tofasTitle = new System.Windows.Forms.Label();
+            this.tofasPrice = new System.Windows.Forms.Label();
+            this.tofasBuy = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.waterImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tofasImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tirrekImg
@@ -227,10 +238,68 @@ namespace TirrekSimulatorRedux
             this.waterBuy.Name = "waterBuy";
             this.waterBuy.UseVisualStyleBackColor = true;
             // 
+            // titleCar
+            // 
+            resources.ApplyResources(this.titleCar, "titleCar");
+            this.titleCar.Name = "titleCar";
+            // 
+            // tofasImg
+            // 
+            resources.ApplyResources(this.tofasImg, "tofasImg");
+            this.tofasImg.Name = "tofasImg";
+            this.tofasImg.TabStop = false;
+            // 
+            // tofasTitle
+            // 
+            resources.ApplyResources(this.tofasTitle, "tofasTitle");
+            this.tofasTitle.Name = "tofasTitle";
+            // 
+            // tofasPrice
+            // 
+            resources.ApplyResources(this.tofasPrice, "tofasPrice");
+            this.tofasPrice.Name = "tofasPrice";
+            // 
+            // tofasBuy
+            // 
+            resources.ApplyResources(this.tofasBuy, "tofasBuy");
+            this.tofasBuy.Name = "tofasBuy";
+            this.tofasBuy.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.tofasBuy);
+            this.Controls.Add(this.tofasPrice);
+            this.Controls.Add(this.tofasTitle);
+            this.Controls.Add(this.tofasImg);
+            this.Controls.Add(this.titleCar);
             this.Controls.Add(this.waterBuy);
             this.Controls.Add(this.waterInfo);
             this.Controls.Add(this.topkekBuy);
@@ -268,6 +337,8 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.waterImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tofasImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,6 +375,15 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Button topkekBuy;
         private System.Windows.Forms.Label waterInfo;
         private System.Windows.Forms.Button waterBuy;
+        private System.Windows.Forms.Label titleCar;
+        private System.Windows.Forms.PictureBox tofasImg;
+        private System.Windows.Forms.Label tofasTitle;
+        private System.Windows.Forms.Label tofasPrice;
+        private System.Windows.Forms.Button tofasBuy;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
