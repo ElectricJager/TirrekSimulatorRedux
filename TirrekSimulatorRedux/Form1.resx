@@ -12662,7 +12662,7 @@ Can Puanı +1</value>
   <data name="topkekImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAb4AAAH0CAYAAABCTkjjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAA/7JJREFUeF7s/WV4Xke6LYren/c+5znn7L1Wd8C2mJmZZUlmO47jOHESh5nZYU46
+        vAAADrwBlbxySQAA/7JJREFUeF7s/WV4Xke6LYren/c+5znn7L1Wd8C2mJmZZUlmO47jOHESh5nZYU46
         zOiwk5iZWWDJYmYyM7NlGneMmirna23ZvfZazzm7eyfuHpmfJtSsWbPmO95R9VbV/+f8+fP4E3/iXxE4
         14uzLr97oePn4OAMcboXp3pxsnerZCzOADwHPObgWC+O9gPtP0zsI/YQh3r36XqldSEx4Sxxzvmpcw4S
         9rr9vX8fYl6Ewzz5KHGMZ59AD/MonGRyxw3O86gAHOEZJ819lZbScfJwlnt1/hHe8gD3CDpDqR8hjnN/
@@ -19855,9 +19855,6 @@ Susuzluk +1</value>
   <data name="&gt;&gt;waterBuy.ZOrder" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="titleCar.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="titleCar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
@@ -19865,13 +19862,16 @@ Susuzluk +1</value>
     <value>235, 363</value>
   </data>
   <data name="titleCar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 25</value>
+    <value>290, 25</value>
   </data>
   <data name="titleCar.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
   <data name="titleCar.Text" xml:space="preserve">
     <value>Araba Galerisi</value>
+  </data>
+  <data name="titleCar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;titleCar.Name" xml:space="preserve">
     <value>titleCar</value>
@@ -23199,7 +23199,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="tofasTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 398</value>
+    <value>421, 398</value>
   </data>
   <data name="tofasTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 20</value>
@@ -23226,7 +23226,7 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="tofasPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 418</value>
+    <value>422, 418</value>
   </data>
   <data name="tofasPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>
@@ -24757,7 +24757,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="bmwTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 528</value>
+    <value>421, 528</value>
   </data>
   <data name="bmwTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 20</value>
@@ -24784,7 +24784,7 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="bmwPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 548</value>
+    <value>422, 548</value>
   </data>
   <data name="bmwPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 13</value>
@@ -24834,23 +24834,23 @@ Susuzluk +1</value>
   <data name="&gt;&gt;bmwBuy.ZOrder" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="titleKnife.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="titleKnife.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
   <data name="titleKnife.Location" type="System.Drawing.Point, System.Drawing">
-    <value>624, 350</value>
+    <value>545, 364</value>
   </data>
   <data name="titleKnife.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 24</value>
+    <value>275, 24</value>
   </data>
   <data name="titleKnife.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
   </data>
   <data name="titleKnife.Text" xml:space="preserve">
     <value>Bıçak Dükkanı</value>
+  </data>
+  <data name="titleKnife.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;titleKnife.Name" xml:space="preserve">
     <value>titleKnife</value>
@@ -25100,13 +25100,13 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="flipImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>558, 378</value>
+    <value>585, 389</value>
   </data>
   <data name="flipImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 98</value>
+    <value>120, 120</value>
   </data>
   <data name="flipImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+    <value>Zoom</value>
   </data>
   <data name="flipImg.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -25127,13 +25127,13 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="flipTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="flipTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 378</value>
+    <value>716, 398</value>
   </data>
   <data name="flipTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
+    <value>44, 20</value>
   </data>
   <data name="flipTitle.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -25157,7 +25157,7 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="flipPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>708, 402</value>
+    <value>717, 418</value>
   </data>
   <data name="flipPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 13</value>
@@ -25614,13 +25614,13 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="butterflyImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>558, 483</value>
+    <value>545, 518</value>
   </data>
   <data name="butterflyImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 105</value>
+    <value>160, 120</value>
   </data>
   <data name="butterflyImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+    <value>Zoom</value>
   </data>
   <data name="butterflyImg.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -25641,13 +25641,13 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="butterflyTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="butterflyTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 481</value>
+    <value>716, 528</value>
   </data>
   <data name="butterflyTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 24</value>
+    <value>73, 20</value>
   </data>
   <data name="butterflyTitle.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -25671,7 +25671,7 @@ Susuzluk +1</value>
     <value>True</value>
   </data>
   <data name="butterflyPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>709, 505</value>
+    <value>717, 548</value>
   </data>
   <data name="butterflyPrice.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 13</value>
@@ -25698,10 +25698,10 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="flipBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 416</value>
+    <value>720, 448</value>
   </data>
   <data name="flipBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 61</value>
+    <value>100, 50</value>
   </data>
   <data name="flipBuy.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -25728,10 +25728,10 @@ Susuzluk +1</value>
     <value>NoControl</value>
   </data>
   <data name="butterflyBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 522</value>
+    <value>720, 578</value>
   </data>
   <data name="butterflyBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 66</value>
+    <value>100, 50</value>
   </data>
   <data name="butterflyBuy.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -25784,7 +25784,7 @@ Susuzluk +1</value>
   <data name="tracksuitImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAABqCAIAAAD4GAIVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAXV1JREFUeF7tvQV4HOe59q+YxVpmZmYG7YoZDYnjcNI20KRNQ00aaBqnDTWcOIbE
+        vgAADr4B6kKxwAAAXV1JREFUeF7tvQV4HOe59q+YxVpmZmYG7YoZDYnjcNI20KRNQ00aaBqnDTWcOIbE
         HKMsM8kggywZZVmyZZJsy8wgpv3u2XGcnPOdNk7P+fq//td13kzGM7Pv7sz85p77eZ6Z2VVM5H+0DUZ6
         eyPX+iI3+yLtfZGu/kj/YGRgAC/0RyK9eLW7u//qtStXr1+7dj3aOjs6Mb72w+y/v/3bVv0/DBptEGgH
         iTExgPFgJEKM8f/V/sjVwUgn+vQRHXt7uzuuXbuKXf3/CjS5arTb8/+x/aeXyNk77fbSu27/Y6AHBwcH
@@ -26326,7 +26326,7 @@ Susuzluk +1</value>
   <data name="shoeImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAABmCAIAAABp8wkqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAY7VJREFUeF61/QV4FNm2/w/nnHPvnHtGkUh73N3d3YUACe7u7h7cJYGgQZIQiLsQ
+        vgAADr4B6kKxwAAAY7VJREFUeF61/QV4FNm2/w/nnHPvnHtGkUh73N3d3YUACe7u7h7cJYGgQZIQiLsQ
         AnFvd5c4MsAMTv9XdYWmJzDnzL3v783zffazatXu6qrPXnvtvavT1Vo0PucvispjkzlMKL8p2IXupXBZ
         amn61eplMzTr/JmgmmZNOIja/isa86ZUHpwMXAJ3jChcuDQeKjIHqn3xoxpTBzbpAj4IbLUfrQkG+JEK
         fB6DqyHeN/T/njuUKDKUmtqvlibNfyP1EVChx1Fv/keNedP/FXeUI6oxdWDzP3KnQrXPov2fuaMXAFfy
@@ -26868,7 +26868,7 @@ Susuzluk +1</value>
   <data name="tesbihImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHwAAABRCAIAAACfTlUBAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAJAdJREFUeF7tnAdYU1f/x2OtE0TZI+y99x6yQQQRBQQUkCEbGSoICgiCylABFREr
+        vgAADr4B6kKxwAAAJAdJREFUeF7tnAdYU1f/x2OtE0TZI+y99x6yQQQRBQQUkCEbGSoICgiCylABFREr
         7oUDt0VF9t57j7BnGJkkkOR/LvFvrdW+1vZ9Wyvf5zzxhickN5/7Pb9xzkUYZUl/uciLg3rwKcEoJDJV
         1OcfHi/pY70HAw5+Z5DIvx3kBdL744+hL+n39B7Se76fHB+w/uSAQbipT8Drl9B/oaicqIg/Nz6g/NGA
         nL74Bkv6Wn0I+qNB+jT6Jeh/Qh/y/dyAuFPR/3IBlqD/CX0I93NjCfp/RVR+7yl/bvwKOni+pL9WH7L+
@@ -27139,7 +27139,7 @@ Susuzluk +1</value>
   <data name="necklaceImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIQAAAB8CAIAAAAn54+EAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAMZpJREFUeF7tfQdYk2fb9vd///t/3/+2VfbeK+wRSAJJCCMJGYwAYQUChL3de2td
+        vgAADr4B6kKxwAAAMZpJREFUeF7tfQdYk2fb9vd///t/3/+2VfbeK+wRSAJJCCMJGYwAYQUChL3de2td
         bbVVW2ttq622amu11lpbbV11DxygogKyN4QkkL2/60nQt33rOxSr+B2cx22OkDx5xnVe47zu5078D/0k
         JgwmyZhAmCRjAmGSjAmESTImECbJmECYJGMCYZKMCYRJMiYQJsmYQJgkYwJhkowJhEkyJhAmyZhAmCRj
         AmGSjAmESTImECbJmECYJGMCYZKMCYRJMiYQJsmYQJgkYwJhYpOh0+vGoNHrtWMvjkGr1ap1erler1Br
