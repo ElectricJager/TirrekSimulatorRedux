@@ -5781,7 +5781,7 @@
     <value>14</value>
   </data>
   <data name="version.Text" xml:space="preserve">
-    <value>0.1.0-alpha © 2021 ElectricJager</value>
+    <value>0.1.0 © 2021 ElectricJager</value>
   </data>
   <data name="version.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
