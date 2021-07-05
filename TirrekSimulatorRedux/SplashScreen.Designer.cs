@@ -66,7 +66,7 @@ namespace TirrekSimulatorRedux
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(400, 24);
             this.version.TabIndex = 70;
-            this.version.Text = "0.1.0-alpha © 2021 ElectricJager";
+            this.version.Text = "0.1.0 © 2021 ElectricJager";
             this.version.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
