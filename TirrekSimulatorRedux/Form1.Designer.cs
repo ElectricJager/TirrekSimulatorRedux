@@ -50,15 +50,11 @@ namespace TirrekSimulatorRedux
             this.walk = new System.Windows.Forms.Button();
             this.Squat = new System.Windows.Forms.Button();
             this.bagcılarInfo = new System.Windows.Forms.Label();
-            this.health = new System.Windows.Forms.Label();
             this.hunger = new System.Windows.Forms.Label();
             this.thirst = new System.Windows.Forms.Label();
-            this.kekoluk = new System.Windows.Forms.Label();
             this.save = new System.Windows.Forms.Button();
-            this.disketteImg = new System.Windows.Forms.PictureBox();
             this.titleMain = new System.Windows.Forms.Label();
             this.version = new System.Windows.Forms.Label();
-            this.electricJager = new System.Windows.Forms.Label();
             this.titleFood = new System.Windows.Forms.Label();
             this.donerImg = new System.Windows.Forms.PictureBox();
             this.donerInfo = new System.Windows.Forms.Label();
@@ -111,8 +107,8 @@ namespace TirrekSimulatorRedux
             this.shoeBuy = new System.Windows.Forms.Button();
             this.tesbihBuy = new System.Windows.Forms.Button();
             this.necklaceBuy = new System.Windows.Forms.Button();
+            this.health = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).BeginInit();
@@ -165,11 +161,6 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.bagcılarInfo, "bagcılarInfo");
             this.bagcılarInfo.Name = "bagcılarInfo";
             // 
-            // health
-            // 
-            resources.ApplyResources(this.health, "health");
-            this.health.Name = "health";
-            // 
             // hunger
             // 
             resources.ApplyResources(this.hunger, "hunger");
@@ -180,22 +171,11 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.thirst, "thirst");
             this.thirst.Name = "thirst";
             // 
-            // kekoluk
-            // 
-            resources.ApplyResources(this.kekoluk, "kekoluk");
-            this.kekoluk.Name = "kekoluk";
-            // 
             // save
             // 
             resources.ApplyResources(this.save, "save");
             this.save.Name = "save";
             this.save.UseVisualStyleBackColor = true;
-            // 
-            // disketteImg
-            // 
-            resources.ApplyResources(this.disketteImg, "disketteImg");
-            this.disketteImg.Name = "disketteImg";
-            this.disketteImg.TabStop = false;
             // 
             // titleMain
             // 
@@ -206,11 +186,6 @@ namespace TirrekSimulatorRedux
             // 
             resources.ApplyResources(this.version, "version");
             this.version.Name = "version";
-            // 
-            // electricJager
-            // 
-            resources.ApplyResources(this.electricJager, "electricJager");
-            this.electricJager.Name = "electricJager";
             // 
             // titleFood
             // 
@@ -496,6 +471,11 @@ namespace TirrekSimulatorRedux
             this.necklaceBuy.Name = "necklaceBuy";
             this.necklaceBuy.UseVisualStyleBackColor = true;
             // 
+            // health
+            // 
+            resources.ApplyResources(this.health, "health");
+            this.health.Name = "health";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -552,12 +532,9 @@ namespace TirrekSimulatorRedux
             this.Controls.Add(this.donerInfo);
             this.Controls.Add(this.donerImg);
             this.Controls.Add(this.titleFood);
-            this.Controls.Add(this.electricJager);
             this.Controls.Add(this.version);
             this.Controls.Add(this.titleMain);
-            this.Controls.Add(this.disketteImg);
             this.Controls.Add(this.save);
-            this.Controls.Add(this.kekoluk);
             this.Controls.Add(this.thirst);
             this.Controls.Add(this.hunger);
             this.Controls.Add(this.health);
@@ -571,7 +548,6 @@ namespace TirrekSimulatorRedux
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.topkekImg)).EndInit();
@@ -598,15 +574,11 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Button walk;
         private System.Windows.Forms.Button Squat;
         private System.Windows.Forms.Label bagcılarInfo;
-        private System.Windows.Forms.Label health;
         private System.Windows.Forms.Label hunger;
         private System.Windows.Forms.Label thirst;
-        private System.Windows.Forms.Label kekoluk;
         private System.Windows.Forms.Button save;
-        private System.Windows.Forms.PictureBox disketteImg;
         private System.Windows.Forms.Label titleMain;
         private System.Windows.Forms.Label version;
-        private System.Windows.Forms.Label electricJager;
         private System.Windows.Forms.Label titleFood;
         private System.Windows.Forms.PictureBox donerImg;
         private System.Windows.Forms.Label donerInfo;
@@ -659,6 +631,7 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Button shoeBuy;
         private System.Windows.Forms.Button tesbihBuy;
         private System.Windows.Forms.Button necklaceBuy;
+        private System.Windows.Forms.Label health;
     }
 }
 

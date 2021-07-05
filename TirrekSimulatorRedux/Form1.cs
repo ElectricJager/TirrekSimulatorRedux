@@ -29,10 +29,9 @@ namespace TirrekSimulatorRedux
         public Form1()
         {
             InitializeComponent();
-            money.Text = $"Paran: {Program.Stats.money} TL";
-            kekoluk.Text = $"Kekoluk levelin: {Program.Stats.kekoluk}";
+            money.Text = $"Paran: {Program.Stats.money} TL Kekoluk Levelin: {Program.Stats.kekoluk}";
             health.Text = $"Can Puanı: {Program.Stats.health}";
-            hunger.Text = $"Açlık:  {Program.Stats.hunger}";
+            hunger.Text = $"Açlık: {Program.Stats.hunger}";
             thirst.Text = $"Susuzluk: {Program.Stats.thirst}";
         }
     }
