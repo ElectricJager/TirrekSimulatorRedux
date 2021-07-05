@@ -34,13 +34,6 @@ namespace TirrekSimulatorRedux
             Application.Run(new Form1());
         }
 
-        public class Walk
-        {
-            public void Start()
-            {
-
-            }
-        }
         public class Check
         {
             public void NewDay()
@@ -110,12 +103,56 @@ namespace TirrekSimulatorRedux
                 MessageBox.Show($"{x} amk\n\nF\n\nÇımak için tamam'a bas", "Tirrek Simulator Redux");
                 Application.Exit();
             }
+
+            public void KekoSet()
+            {
+                if (Items.inventory["tracksuit"] && Items.inventory["shoes"] && Items.inventory["tesbih"] && Items.inventory["necklace"] && Stats.kekoSetComplete == false)
+                {
+                    Stats.kekoluk += 20;
+                    Stats.kekoSetComplete = true;
+                    MessageBox.Show("Keko market set tamamlandı!\n+20 kekoluk", "Tirrek Simulator Redux");
+                }
+            }
+
+            public void CarSet()
+            {
+                if (Items.inventory["tofas"] && Items.inventory["bmw"] && Stats.carSetComplete == false)
+                {
+                    Stats.kekoluk += 40;
+                    Stats.carSetComplete = true;
+                    MessageBox.Show("Araba seti tamamlandı!\n+40 kekoluk", "Tirrek Simulator Redux");
+                }
+            }
+            public void KnifeSet()
+            {
+                if (Items.inventory["flip"] && Items.inventory["butterfly"] && Stats.knifeSetComplete == false)
+                {
+                    Stats.kekoluk += 15;
+                    Stats.knifeSetComplete = true;
+                    MessageBox.Show("Bıçak seti tamamlandı!\n+15 kekoluk", "Tirrek Simulator Redux");
+                }
+            }
         }
         public struct Stats
         {
             public static int health = 10, hunger = 11, thirst = 11, kekoluk = 0;
             internal static int maxHealth = 20, maxKekoluk = 100;
-            public static double money = 5;
+            public static double money = 50000;
+            public static bool kekoSetComplete, carSetComplete, knifeSetComplete, flipCaught, butterflyCaught;
+        }
+        public class Items
+        {
+            public static Dictionary<string, bool> inventory = new Dictionary<string, bool>()
+            {
+                {"tracksuit", false},
+                {"shoes", false},
+                {"tesbih", false},
+                {"necklace", false},
+                {"tofas", false},
+                {"bmw", false},
+                {"flip", false},
+                {"butterfly", false}
+            };
         }
     }
 }

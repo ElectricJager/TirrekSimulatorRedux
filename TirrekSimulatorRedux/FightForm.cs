@@ -28,7 +28,7 @@ namespace TirrekSimulatorRedux
             int bias = Program.Stats.kekoluk / 5 + 50;
             if (random.Next(0, 101) < bias)
             {
-                int x = random.Next(5, 50);
+                int x = random.Next(5, 50 + Program.Stats.kekoluk);
                 MessageBox.Show($"{x} TL kazandın", "Tirrek Simulator Redux");
                 Program.Stats.money += x;
                 Close();
@@ -45,7 +45,28 @@ namespace TirrekSimulatorRedux
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            if (Program.Items.inventory["flip"] || Program.Items.inventory["butterfly"])
+            {
+                var random = new Random();
+                if (random.Next(0, 3) == 0)
+                {
+                    var knifeForm = new KnifeForm();
+                    knifeForm.ShowDialog();
+                    Close();
+                }
+                else
+                {
+                    int x = random.Next(5, (51 + Program.Stats.kekoluk) * 2);
+                    MessageBox.Show($"Adam korkup kaçtı\n{x} TL kazandın");
+                    Program.Stats.money += x;
+                    Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bıçağın yok amk sakatı", "Tirrek Simulator Redux");
+                Close();
+            }
         }
     }
 }

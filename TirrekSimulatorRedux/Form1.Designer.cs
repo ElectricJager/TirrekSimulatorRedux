@@ -106,6 +106,9 @@ namespace TirrekSimulatorRedux
             this.health = new System.Windows.Forms.Label();
             this.githubLink = new System.Windows.Forms.LinkLabel();
             this.recentEvents = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).BeginInit();
@@ -290,6 +293,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.tofasBuy, "tofasBuy");
             this.tofasBuy.Name = "tofasBuy";
             this.tofasBuy.UseVisualStyleBackColor = true;
+            this.tofasBuy.Click += new System.EventHandler(this.tofasBuy_Click);
             // 
             // bmwImg
             // 
@@ -312,6 +316,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.bmwBuy, "bmwBuy");
             this.bmwBuy.Name = "bmwBuy";
             this.bmwBuy.UseVisualStyleBackColor = true;
+            this.bmwBuy.Click += new System.EventHandler(this.bmwBuy_Click);
             // 
             // titleKnife
             // 
@@ -355,12 +360,14 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.flipBuy, "flipBuy");
             this.flipBuy.Name = "flipBuy";
             this.flipBuy.UseVisualStyleBackColor = true;
+            this.flipBuy.Click += new System.EventHandler(this.flipBuy_Click);
             // 
             // butterflyBuy
             // 
             resources.ApplyResources(this.butterflyBuy, "butterflyBuy");
             this.butterflyBuy.Name = "butterflyBuy";
             this.butterflyBuy.UseVisualStyleBackColor = true;
+            this.butterflyBuy.Click += new System.EventHandler(this.butterflyBuy_Click);
             // 
             // titleMarket
             // 
@@ -388,6 +395,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.tracksuitBuy, "tracksuitBuy");
             this.tracksuitBuy.Name = "tracksuitBuy";
             this.tracksuitBuy.UseVisualStyleBackColor = true;
+            this.tracksuitBuy.Click += new System.EventHandler(this.tracksuitBuy_Click);
             // 
             // shoeImg
             // 
@@ -442,18 +450,21 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.shoeBuy, "shoeBuy");
             this.shoeBuy.Name = "shoeBuy";
             this.shoeBuy.UseVisualStyleBackColor = true;
+            this.shoeBuy.Click += new System.EventHandler(this.shoeBuy_Click);
             // 
             // tesbihBuy
             // 
             resources.ApplyResources(this.tesbihBuy, "tesbihBuy");
             this.tesbihBuy.Name = "tesbihBuy";
             this.tesbihBuy.UseVisualStyleBackColor = true;
+            this.tesbihBuy.Click += new System.EventHandler(this.tesbihBuy_Click);
             // 
             // necklaceBuy
             // 
             resources.ApplyResources(this.necklaceBuy, "necklaceBuy");
             this.necklaceBuy.Name = "necklaceBuy";
             this.necklaceBuy.UseVisualStyleBackColor = true;
+            this.necklaceBuy.Click += new System.EventHandler(this.necklaceBuy_Click);
             // 
             // health
             // 
@@ -474,10 +485,28 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.recentEvents, "recentEvents");
             this.recentEvents.Name = "recentEvents";
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.recentEvents);
             this.Controls.Add(this.githubLink);
             this.Controls.Add(this.necklaceBuy);
@@ -626,6 +655,9 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Label health;
         private System.Windows.Forms.LinkLabel githubLink;
         private System.Windows.Forms.Label recentEvents;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
     }
 }
 

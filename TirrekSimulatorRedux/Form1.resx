@@ -5481,7 +5481,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tirrekImg.ZOrder" xml:space="preserve">
-    <value>62</value>
+    <value>65</value>
   </data>
   <data name="title.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
@@ -5508,7 +5508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;title.ZOrder" xml:space="preserve">
-    <value>61</value>
+    <value>64</value>
   </data>
   <data name="money.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
@@ -5541,7 +5541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;money.ZOrder" xml:space="preserve">
-    <value>60</value>
+    <value>63</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
@@ -5571,7 +5571,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>59</value>
+    <value>62</value>
   </data>
   <data name="walk.Location" type="System.Drawing.Point, System.Drawing">
     <value>290, 102</value>
@@ -5595,7 +5595,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;walk.ZOrder" xml:space="preserve">
-    <value>58</value>
+    <value>61</value>
   </data>
   <data name="Squat.Location" type="System.Drawing.Point, System.Drawing">
     <value>420, 102</value>
@@ -5619,7 +5619,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Squat.ZOrder" xml:space="preserve">
-    <value>57</value>
+    <value>60</value>
   </data>
   <data name="bagcılarInfo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.75pt</value>
@@ -5649,7 +5649,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bagcılarInfo.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>59</value>
   </data>
   <data name="hunger.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5679,7 +5679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;hunger.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>57</value>
   </data>
   <data name="thirst.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5709,7 +5709,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;thirst.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>56</value>
   </data>
   <data name="save.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -5736,7 +5736,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;save.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>55</value>
   </data>
   <data name="titleMain.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 24pt</value>
@@ -5766,7 +5766,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;titleMain.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>54</value>
   </data>
   <data name="version.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -5796,7 +5796,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;version.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>53</value>
   </data>
   <data name="titleFood.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
@@ -5826,7 +5826,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;titleFood.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>52</value>
   </data>
   <data name="donerImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9334,7 +9334,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;donerImg.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>51</value>
   </data>
   <data name="donerInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -9363,7 +9363,7 @@ Can puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;donerInfo.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>50</value>
   </data>
   <data name="donerBuy.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 90</value>
@@ -9387,7 +9387,7 @@ Can puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;donerBuy.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>49</value>
   </data>
   <data name="ayranImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -12353,7 +12353,7 @@ Can puanı +1</value>
 </value>
   </data>
   <data name="ayranImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>638, 125</value>
+    <value>638, 123</value>
   </data>
   <data name="ayranImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 70</value>
@@ -12374,13 +12374,13 @@ Can puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ayranImg.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>48</value>
   </data>
   <data name="ayranInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="ayranInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 125</value>
+    <value>700, 123</value>
   </data>
   <data name="ayranInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 39</value>
@@ -12403,10 +12403,10 @@ Can Puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ayranInfo.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>47</value>
   </data>
   <data name="ayranBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 170</value>
+    <value>700, 168</value>
   </data>
   <data name="ayranBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -12427,7 +12427,7 @@ Can Puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ayranBuy.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>46</value>
   </data>
   <data name="topkekImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -18901,7 +18901,7 @@ Can Puanı +1</value>
 </value>
   </data>
   <data name="topkekImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>627, 205</value>
+    <value>627, 201</value>
   </data>
   <data name="topkekImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 70</value>
@@ -18922,13 +18922,13 @@ Can Puanı +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;topkekImg.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>45</value>
   </data>
   <data name="topkekInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="topkekInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 205</value>
+    <value>700, 201</value>
   </data>
   <data name="topkekInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 26</value>
@@ -18950,7 +18950,7 @@ Açlık +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;topkekInfo.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>44</value>
   </data>
   <data name="waterImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -19523,7 +19523,7 @@ Açlık +1</value>
 </value>
   </data>
   <data name="waterImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>620, 285</value>
+    <value>620, 279</value>
   </data>
   <data name="waterImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 70</value>
@@ -19544,10 +19544,10 @@ Açlık +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;waterImg.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>43</value>
   </data>
   <data name="topkekBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 250</value>
+    <value>700, 246</value>
   </data>
   <data name="topkekBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -19568,13 +19568,13 @@ Açlık +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;topkekBuy.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>42</value>
   </data>
   <data name="waterInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="waterInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 285</value>
+    <value>700, 279</value>
   </data>
   <data name="waterInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 26</value>
@@ -19596,13 +19596,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;waterInfo.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>41</value>
   </data>
   <data name="waterBuy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="waterBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 330</value>
+    <value>700, 324</value>
   </data>
   <data name="waterBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -19623,13 +19623,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;waterBuy.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>40</value>
   </data>
   <data name="titleCar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="titleCar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 363</value>
+    <value>235, 353</value>
   </data>
   <data name="titleCar.Size" type="System.Drawing.Size, System.Drawing">
     <value>290, 25</value>
@@ -19638,7 +19638,7 @@ Susuzluk +1</value>
     <value>29</value>
   </data>
   <data name="titleCar.Text" xml:space="preserve">
-    <value>Araba Galerisi (INOP)</value>
+    <value>Araba Galerisi</value>
   </data>
   <data name="titleCar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -19653,7 +19653,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;titleCar.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>39</value>
   </data>
   <data name="tofasImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -22939,7 +22939,7 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="tofasImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 388</value>
+    <value>235, 378</value>
   </data>
   <data name="tofasImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 120</value>
@@ -22960,7 +22960,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tofasImg.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>38</value>
   </data>
   <data name="tofasTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -22969,7 +22969,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="tofasTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 398</value>
+    <value>421, 388</value>
   </data>
   <data name="tofasTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 20</value>
@@ -22990,22 +22990,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tofasTitle.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>37</value>
   </data>
   <data name="tofasPrice.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tofasPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 418</value>
+    <value>422, 408</value>
   </data>
   <data name="tofasPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 13</value>
+    <value>113, 13</value>
   </data>
   <data name="tofasPrice.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
   <data name="tofasPrice.Text" xml:space="preserve">
-    <value>6.000 TL (keşke amk)</value>
+    <value>6.000 TL +35 Kekoluk</value>
   </data>
   <data name="&gt;&gt;tofasPrice.Name" xml:space="preserve">
     <value>tofasPrice</value>
@@ -23017,13 +23017,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tofasPrice.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>36</value>
   </data>
   <data name="tofasBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="tofasBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 438</value>
+    <value>425, 428</value>
   </data>
   <data name="tofasBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 60</value>
@@ -23044,7 +23044,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tofasBuy.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>35</value>
   </data>
   <data name="bmwImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -24497,7 +24497,7 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="bmwImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 518</value>
+    <value>255, 508</value>
   </data>
   <data name="bmwImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 120</value>
@@ -24518,7 +24518,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bmwImg.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>34</value>
   </data>
   <data name="bmwTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -24527,7 +24527,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="bmwTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 528</value>
+    <value>421, 518</value>
   </data>
   <data name="bmwTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 20</value>
@@ -24548,22 +24548,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bmwTitle.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>33</value>
   </data>
   <data name="bmwPrice.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="bmwPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 548</value>
+    <value>422, 538</value>
   </data>
   <data name="bmwPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
+    <value>119, 13</value>
   </data>
   <data name="bmwPrice.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
   </data>
   <data name="bmwPrice.Text" xml:space="preserve">
-    <value>12.000 TL</value>
+    <value>12.000 TL +60 Kekoluk</value>
   </data>
   <data name="&gt;&gt;bmwPrice.Name" xml:space="preserve">
     <value>bmwPrice</value>
@@ -24575,13 +24575,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bmwPrice.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>32</value>
   </data>
   <data name="bmwBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="bmwBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 568</value>
+    <value>425, 558</value>
   </data>
   <data name="bmwBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 60</value>
@@ -24602,13 +24602,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bmwBuy.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>31</value>
   </data>
   <data name="titleKnife.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="titleKnife.Location" type="System.Drawing.Point, System.Drawing">
-    <value>545, 363</value>
+    <value>545, 353</value>
   </data>
   <data name="titleKnife.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 24</value>
@@ -24617,7 +24617,7 @@ Susuzluk +1</value>
     <value>38</value>
   </data>
   <data name="titleKnife.Text" xml:space="preserve">
-    <value>Bıçak Dükkanı (INOP)</value>
+    <value>Bıçak Dükkanı</value>
   </data>
   <data name="titleKnife.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -24632,7 +24632,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;titleKnife.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>30</value>
   </data>
   <data name="flipImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -24870,7 +24870,7 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="flipImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 389</value>
+    <value>585, 379</value>
   </data>
   <data name="flipImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 120</value>
@@ -24891,7 +24891,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flipImg.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>29</value>
   </data>
   <data name="flipTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -24900,7 +24900,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="flipTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>716, 398</value>
+    <value>716, 388</value>
   </data>
   <data name="flipTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
@@ -24921,22 +24921,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flipTitle.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>28</value>
   </data>
   <data name="flipPrice.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="flipPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>717, 418</value>
+    <value>717, 408</value>
   </data>
   <data name="flipPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
+    <value>92, 13</value>
   </data>
   <data name="flipPrice.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
   </data>
   <data name="flipPrice.Text" xml:space="preserve">
-    <value>15 TL</value>
+    <value>15 TL +6 Kekoluk</value>
   </data>
   <data name="&gt;&gt;flipPrice.Name" xml:space="preserve">
     <value>flipPrice</value>
@@ -24948,7 +24948,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flipPrice.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>27</value>
   </data>
   <data name="butterflyImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -25384,7 +25384,7 @@ Susuzluk +1</value>
 </value>
   </data>
   <data name="butterflyImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>545, 518</value>
+    <value>545, 508</value>
   </data>
   <data name="butterflyImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 120</value>
@@ -25405,7 +25405,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;butterflyImg.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>26</value>
   </data>
   <data name="butterflyTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -25414,7 +25414,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="butterflyTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>716, 528</value>
+    <value>716, 518</value>
   </data>
   <data name="butterflyTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -25435,22 +25435,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;butterflyTitle.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>25</value>
   </data>
   <data name="butterflyPrice.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="butterflyPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>717, 548</value>
+    <value>717, 538</value>
   </data>
   <data name="butterflyPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
+    <value>104, 13</value>
   </data>
   <data name="butterflyPrice.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
   </data>
   <data name="butterflyPrice.Text" xml:space="preserve">
-    <value>99 TL</value>
+    <value>100 TL +25 Kekoluk</value>
   </data>
   <data name="&gt;&gt;butterflyPrice.Name" xml:space="preserve">
     <value>butterflyPrice</value>
@@ -25462,13 +25462,13 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;butterflyPrice.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>24</value>
   </data>
   <data name="flipBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="flipBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 438</value>
+    <value>720, 428</value>
   </data>
   <data name="flipBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 60</value>
@@ -25489,7 +25489,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flipBuy.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>23</value>
   </data>
   <data name="butterflyBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -25498,7 +25498,7 @@ Susuzluk +1</value>
     <value>NoControl</value>
   </data>
   <data name="butterflyBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 568</value>
+    <value>720, 558</value>
   </data>
   <data name="butterflyBuy.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 60</value>
@@ -25519,7 +25519,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;butterflyBuy.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>22</value>
   </data>
   <data name="titleMarket.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -25531,13 +25531,13 @@ Susuzluk +1</value>
     <value>881, 10</value>
   </data>
   <data name="titleMarket.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 25</value>
+    <value>144, 25</value>
   </data>
   <data name="titleMarket.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
   </data>
   <data name="titleMarket.Text" xml:space="preserve">
-    <value>Keko Market (INOP)</value>
+    <value>Keko Market</value>
   </data>
   <data name="&gt;&gt;titleMarket.Name" xml:space="preserve">
     <value>titleMarket</value>
@@ -25549,7 +25549,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;titleMarket.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>21</value>
   </data>
   <data name="tracksuitImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -25977,26 +25977,26 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tracksuitImg.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>20</value>
   </data>
   <data name="tracksuitTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tracksuitTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="tracksuitTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>958, 45</value>
   </data>
   <data name="tracksuitTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 40</value>
+    <value>181, 20</value>
   </data>
   <data name="tracksuitTitle.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
   </data>
   <data name="tracksuitTitle.Text" xml:space="preserve">
     <value>Keko Eşofman Takımı
-55 TL</value>
+</value>
   </data>
   <data name="&gt;&gt;tracksuitTitle.Name" xml:space="preserve">
     <value>tracksuitTitle</value>
@@ -26008,22 +26008,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tracksuitTitle.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="tracksuitInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tracksuitInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1010, 71</value>
+    <value>959, 69</value>
   </data>
   <data name="tracksuitInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 13</value>
+    <value>126, 13</value>
   </data>
   <data name="tracksuitInfo.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="tracksuitInfo.Text" xml:space="preserve">
-    <value>22 Can 11 Kekoluk Leveli</value>
+    <value>55 TL  15 Kekoluk Leveli</value>
   </data>
   <data name="&gt;&gt;tracksuitInfo.Name" xml:space="preserve">
     <value>tracksuitInfo</value>
@@ -26035,7 +26035,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tracksuitInfo.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="tracksuitBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -26062,7 +26062,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tracksuitBuy.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="shoeImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -26517,26 +26517,25 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;shoeImg.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="shoeTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="shoeTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="shoeTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>958, 155</value>
   </data>
   <data name="shoeTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 40</value>
+    <value>152, 20</value>
   </data>
   <data name="shoeTitle.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
   </data>
   <data name="shoeTitle.Text" xml:space="preserve">
     <value>Fosforlu Ayakkabı
-80 TL
 </value>
   </data>
   <data name="&gt;&gt;shoeTitle.Name" xml:space="preserve">
@@ -26549,22 +26548,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;shoeTitle.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="ShoeInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="ShoeInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1010, 181</value>
+    <value>959, 179</value>
   </data>
   <data name="ShoeInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 13</value>
+    <value>126, 13</value>
   </data>
   <data name="ShoeInfo.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
   <data name="ShoeInfo.Text" xml:space="preserve">
-    <value>32 Can 22 Kekoluk Leveli</value>
+    <value>80 TL  25 Kekoluk Leveli</value>
   </data>
   <data name="&gt;&gt;ShoeInfo.Name" xml:space="preserve">
     <value>ShoeInfo</value>
@@ -26576,7 +26575,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ShoeInfo.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="tesbihImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -26760,26 +26759,26 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tesbihImg.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="TesbihTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="TesbihTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="TesbihTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>958, 265</value>
   </data>
   <data name="TesbihTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 40</value>
+    <value>62, 20</value>
   </data>
   <data name="TesbihTitle.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
   </data>
   <data name="TesbihTitle.Text" xml:space="preserve">
     <value>Tesbih
-5 TL</value>
+</value>
   </data>
   <data name="&gt;&gt;TesbihTitle.Name" xml:space="preserve">
     <value>TesbihTitle</value>
@@ -26791,22 +26790,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TesbihTitle.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="tesbihInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tesbihInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1010, 291</value>
+    <value>959, 289</value>
   </data>
   <data name="tesbihInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 13</value>
+    <value>114, 13</value>
   </data>
   <data name="tesbihInfo.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
   </data>
   <data name="tesbihInfo.Text" xml:space="preserve">
-    <value>2 Can 1 Kekoluk Leveli</value>
+    <value>5 TL  3 Kekoluk Leveli</value>
   </data>
   <data name="&gt;&gt;tesbihInfo.Name" xml:space="preserve">
     <value>tesbihInfo</value>
@@ -26818,7 +26817,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tesbihInfo.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="necklaceImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -27060,26 +27059,26 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;necklaceImg.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="necklaceTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="necklaceTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="necklaceTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>958, 375</value>
   </data>
   <data name="necklaceTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 40</value>
+    <value>110, 20</value>
   </data>
   <data name="necklaceTitle.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="necklaceTitle.Text" xml:space="preserve">
     <value>Keko Kolyesi
-15 TL</value>
+</value>
   </data>
   <data name="&gt;&gt;necklaceTitle.Name" xml:space="preserve">
     <value>necklaceTitle</value>
@@ -27091,22 +27090,22 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;necklaceTitle.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="necklaceInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="necklaceInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1010, 401</value>
+    <value>959, 399</value>
   </data>
   <data name="necklaceInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 13</value>
+    <value>120, 13</value>
   </data>
   <data name="necklaceInfo.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
   </data>
   <data name="necklaceInfo.Text" xml:space="preserve">
-    <value>6 Can 3 Kekoluk Leveli</value>
+    <value>15 TL  6 Kekoluk Leveli</value>
   </data>
   <data name="&gt;&gt;necklaceInfo.Name" xml:space="preserve">
     <value>necklaceInfo</value>
@@ -27118,7 +27117,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;necklaceInfo.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="shoeBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -27145,7 +27144,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;shoeBuy.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="tesbihBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -27172,7 +27171,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tesbihBuy.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="necklaceBuy.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
@@ -27199,7 +27198,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;necklaceBuy.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="health.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -27232,7 +27231,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;health.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>58</value>
   </data>
   <data name="githubLink.Location" type="System.Drawing.Point, System.Drawing">
     <value>235, 299</value>
@@ -27259,7 +27258,7 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;githubLink.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="recentEvents.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -27289,6 +27288,93 @@ Susuzluk +1</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;recentEvents.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 485</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Set tamamlama bonusu: 20 Kekoluk</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 631</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Set tamamlama bonusu: 40 Kekoluk</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 631</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Set tamamlama bonusu: 15 Kekoluk</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
