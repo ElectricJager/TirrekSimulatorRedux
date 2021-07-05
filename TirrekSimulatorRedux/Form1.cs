@@ -42,6 +42,14 @@ namespace TirrekSimulatorRedux
 
         void UpdateStats()
         {
+            if (Program.Items.inventory["tracksuit"] == true)
+                tracksuitBuy.Text = "Alındı";
+            if (Program.Items.inventory["shoes"] == true)
+                shoeBuy.Text = "Alındı";
+            if (Program.Items.inventory["tesbih"] == true)
+                tesbihBuy.Text = "Alındı";
+            if (Program.Items.inventory["necklace"] == true)
+                necklaceBuy.Text = "Alındı";
             money.Text = $"Paran: {Program.Stats.money} TL Kekoluk Levelin: {Program.Stats.kekoluk}";
             health.Text = $"Can Puanı: {Program.Stats.health}/{Program.Stats.maxHealth}";
             hunger.Text = $"Açlık: {Program.Stats.hunger}";
@@ -52,6 +60,10 @@ namespace TirrekSimulatorRedux
             thirst.Refresh();
         }
 
+        void AlreadyHaveMsg()
+        {
+            MessageBox.Show("Bundan sende zaten var", "Tirrek Simulator Redux");
+        }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/ElectricJager/TirrekSimulatorRedux");
@@ -119,6 +131,70 @@ namespace TirrekSimulatorRedux
             check.NewDay();
             UpdateStats();
             check.Status();
+        }
+
+        private void tracksuitBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(55))
+            {
+                if (Program.Items.inventory["tracksuit"] == false)
+                {
+                    Program.Items.inventory["tracksuit"] = true;
+                    Program.Stats.kekoluk += 11;
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void shoeBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(80))
+            {
+                if (Program.Items.inventory["shoes"] == false)
+                {
+                    Program.Items.inventory["shoes"] = true;
+                    Program.Stats.kekoluk += 22;
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void tesbihBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(5))
+            {
+                if (Program.Items.inventory["tesbih"] == false)
+                {
+                    Program.Items.inventory["tesbih"] = true;
+                    Program.Stats.kekoluk += 1;
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void necklaceBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(15))
+            {
+                if (Program.Items.inventory["necklace"] == false)
+                {
+                    Program.Items.inventory["necklace"] = true;
+                    Program.Stats.kekoluk += 3;
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
         }
     }
 }

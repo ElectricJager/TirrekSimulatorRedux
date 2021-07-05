@@ -388,6 +388,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.tracksuitBuy, "tracksuitBuy");
             this.tracksuitBuy.Name = "tracksuitBuy";
             this.tracksuitBuy.UseVisualStyleBackColor = true;
+            this.tracksuitBuy.Click += new System.EventHandler(this.tracksuitBuy_Click);
             // 
             // shoeImg
             // 
@@ -442,18 +443,21 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.shoeBuy, "shoeBuy");
             this.shoeBuy.Name = "shoeBuy";
             this.shoeBuy.UseVisualStyleBackColor = true;
+            this.shoeBuy.Click += new System.EventHandler(this.shoeBuy_Click);
             // 
             // tesbihBuy
             // 
             resources.ApplyResources(this.tesbihBuy, "tesbihBuy");
             this.tesbihBuy.Name = "tesbihBuy";
             this.tesbihBuy.UseVisualStyleBackColor = true;
+            this.tesbihBuy.Click += new System.EventHandler(this.tesbihBuy_Click);
             // 
             // necklaceBuy
             // 
             resources.ApplyResources(this.necklaceBuy, "necklaceBuy");
             this.necklaceBuy.Name = "necklaceBuy";
             this.necklaceBuy.UseVisualStyleBackColor = true;
+            this.necklaceBuy.Click += new System.EventHandler(this.necklaceBuy_Click);
             // 
             // health
             // 

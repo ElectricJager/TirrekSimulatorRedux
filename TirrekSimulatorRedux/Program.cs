@@ -34,13 +34,6 @@ namespace TirrekSimulatorRedux
             Application.Run(new Form1());
         }
 
-        public class Walk
-        {
-            public void Start()
-            {
-
-            }
-        }
         public class Check
         {
             public void NewDay()
@@ -116,6 +109,17 @@ namespace TirrekSimulatorRedux
             public static int health = 10, hunger = 11, thirst = 11, kekoluk = 0;
             internal static int maxHealth = 20, maxKekoluk = 100;
             public static double money = 5;
+
+        }
+        public class Items
+        {
+            public static Dictionary<string, bool> inventory = new Dictionary<string, bool>()
+            {
+                {"tracksuit", false},
+                {"shoes", false},
+                {"tesbih", false},
+                {"necklace", false}
+            };
         }
     }
 }
