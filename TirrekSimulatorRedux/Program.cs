@@ -137,7 +137,7 @@ namespace TirrekSimulatorRedux
         {
             public static int health = 10, hunger = 11, thirst = 11, kekoluk = 0;
             internal static int maxHealth = 20, maxKekoluk = 100;
-            public static double money = 50000;
+            public static double money = 5;
             public static bool kekoSetComplete, carSetComplete, knifeSetComplete, flipCaught, butterflyCaught;
         }
         public class Items
