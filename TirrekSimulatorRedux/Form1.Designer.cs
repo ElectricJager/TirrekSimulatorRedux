@@ -104,6 +104,8 @@ namespace TirrekSimulatorRedux
             this.tesbihBuy = new System.Windows.Forms.Button();
             this.necklaceBuy = new System.Windows.Forms.Button();
             this.health = new System.Windows.Forms.Label();
+            this.githubLink = new System.Windows.Forms.LinkLabel();
+            this.recentEvents = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ayranImg)).BeginInit();
@@ -452,10 +454,26 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.health, "health");
             this.health.Name = "health";
             // 
+            // githubLink
+            // 
+            resources.ApplyResources(this.githubLink, "githubLink");
+            this.githubLink.Name = "githubLink";
+            this.githubLink.TabStop = true;
+            this.githubLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // recentEvents
+            // 
+            this.recentEvents.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.recentEvents.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.recentEvents, "recentEvents");
+            this.recentEvents.Name = "recentEvents";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.recentEvents);
+            this.Controls.Add(this.githubLink);
             this.Controls.Add(this.necklaceBuy);
             this.Controls.Add(this.tesbihBuy);
             this.Controls.Add(this.shoeBuy);
@@ -600,6 +618,8 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Button tesbihBuy;
         private System.Windows.Forms.Button necklaceBuy;
         private System.Windows.Forms.Label health;
+        private System.Windows.Forms.LinkLabel githubLink;
+        private System.Windows.Forms.Label recentEvents;
     }
 }
 
