@@ -5802,13 +5802,13 @@
     <value>True</value>
   </data>
   <data name="titleFood.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="titleFood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 9</value>
+    <value>639, 10</value>
   </data>
   <data name="titleFood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 24</value>
+    <value>171, 25</value>
   </data>
   <data name="titleFood.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -9313,10 +9313,10 @@
 </value>
   </data>
   <data name="donerImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 36</value>
+    <value>611, 45</value>
   </data>
   <data name="donerImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>79, 70</value>
   </data>
   <data name="donerImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -9340,7 +9340,7 @@
     <value>True</value>
   </data>
   <data name="donerInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 36</value>
+    <value>700, 45</value>
   </data>
   <data name="donerInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 39</value>
@@ -9366,10 +9366,10 @@ Can puanı +1</value>
     <value>49</value>
   </data>
   <data name="donerBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 79</value>
+    <value>700, 90</value>
   </data>
   <data name="donerBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="donerBuy.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -12353,10 +12353,10 @@ Can puanı +1</value>
 </value>
   </data>
   <data name="ayranImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 105</value>
+    <value>638, 125</value>
   </data>
   <data name="ayranImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 71</value>
+    <value>52, 70</value>
   </data>
   <data name="ayranImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -12380,7 +12380,7 @@ Can puanı +1</value>
     <value>True</value>
   </data>
   <data name="ayranInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 105</value>
+    <value>700, 125</value>
   </data>
   <data name="ayranInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 39</value>
@@ -12406,10 +12406,10 @@ Can Puanı +1</value>
     <value>46</value>
   </data>
   <data name="ayranBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>665, 153</value>
+    <value>700, 170</value>
   </data>
   <data name="ayranBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="ayranBuy.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -18901,10 +18901,10 @@ Can Puanı +1</value>
 </value>
   </data>
   <data name="topkekImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 191</value>
+    <value>627, 205</value>
   </data>
   <data name="topkekImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 50</value>
+    <value>63, 70</value>
   </data>
   <data name="topkekImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -18928,7 +18928,7 @@ Can Puanı +1</value>
     <value>True</value>
   </data>
   <data name="topkekInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>686, 191</value>
+    <value>700, 205</value>
   </data>
   <data name="topkekInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 26</value>
@@ -19523,10 +19523,10 @@ Açlık +1</value>
 </value>
   </data>
   <data name="waterImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>597, 246</value>
+    <value>620, 285</value>
   </data>
   <data name="waterImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 61</value>
+    <value>70, 70</value>
   </data>
   <data name="waterImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -19547,10 +19547,10 @@ Açlık +1</value>
     <value>42</value>
   </data>
   <data name="topkekBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>689, 220</value>
+    <value>700, 250</value>
   </data>
   <data name="topkekBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="topkekBuy.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -19574,7 +19574,7 @@ Açlık +1</value>
     <value>True</value>
   </data>
   <data name="waterInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>682, 246</value>
+    <value>700, 285</value>
   </data>
   <data name="waterInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 26</value>
@@ -19602,10 +19602,10 @@ Susuzluk +1</value>
     <value>NoControl</value>
   </data>
   <data name="waterBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>682, 284</value>
+    <value>700, 330</value>
   </data>
   <data name="waterBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="waterBuy.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -22945,7 +22945,7 @@ Susuzluk +1</value>
     <value>180, 120</value>
   </data>
   <data name="tofasImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+    <value>StretchImage</value>
   </data>
   <data name="tofasImg.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -23023,10 +23023,10 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="tofasBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 448</value>
+    <value>425, 438</value>
   </data>
   <data name="tofasBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>100, 60</value>
   </data>
   <data name="tofasBuy.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -24503,7 +24503,7 @@ Susuzluk +1</value>
     <value>160, 120</value>
   </data>
   <data name="bmwImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+    <value>StretchImage</value>
   </data>
   <data name="bmwImg.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -24581,10 +24581,10 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="bmwBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 578</value>
+    <value>425, 568</value>
   </data>
   <data name="bmwBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>100, 60</value>
   </data>
   <data name="bmwBuy.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -24605,10 +24605,10 @@ Susuzluk +1</value>
     <value>30</value>
   </data>
   <data name="titleKnife.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="titleKnife.Location" type="System.Drawing.Point, System.Drawing">
-    <value>545, 364</value>
+    <value>545, 363</value>
   </data>
   <data name="titleKnife.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 24</value>
@@ -25468,10 +25468,10 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="flipBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 448</value>
+    <value>720, 438</value>
   </data>
   <data name="flipBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>100, 60</value>
   </data>
   <data name="flipBuy.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -25498,10 +25498,10 @@ Susuzluk +1</value>
     <value>NoControl</value>
   </data>
   <data name="butterflyBuy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 578</value>
+    <value>720, 568</value>
   </data>
   <data name="butterflyBuy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>100, 60</value>
   </data>
   <data name="butterflyBuy.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
