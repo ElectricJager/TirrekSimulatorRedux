@@ -147,12 +147,14 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.walk, "walk");
             this.walk.Name = "walk";
             this.walk.UseVisualStyleBackColor = true;
+            this.walk.Click += new System.EventHandler(this.walk_Click);
             // 
             // Squat
             // 
             resources.ApplyResources(this.Squat, "Squat");
             this.Squat.Name = "Squat";
             this.Squat.UseVisualStyleBackColor = true;
+            this.Squat.Click += new System.EventHandler(this.Squat_Click);
             // 
             // bagcılarInfo
             // 
@@ -206,6 +208,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.donerBuy, "donerBuy");
             this.donerBuy.Name = "donerBuy";
             this.donerBuy.UseVisualStyleBackColor = true;
+            this.donerBuy.Click += new System.EventHandler(this.donerBuy_Click);
             // 
             // ayranImg
             // 
@@ -223,6 +226,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.ayranBuy, "ayranBuy");
             this.ayranBuy.Name = "ayranBuy";
             this.ayranBuy.UseVisualStyleBackColor = true;
+            this.ayranBuy.Click += new System.EventHandler(this.ayranBuy_Click);
             // 
             // topkekImg
             // 
@@ -246,6 +250,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.topkekBuy, "topkekBuy");
             this.topkekBuy.Name = "topkekBuy";
             this.topkekBuy.UseVisualStyleBackColor = true;
+            this.topkekBuy.Click += new System.EventHandler(this.topkekBuy_Click);
             // 
             // waterInfo
             // 
@@ -257,6 +262,7 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.waterBuy, "waterBuy");
             this.waterBuy.Name = "waterBuy";
             this.waterBuy.UseVisualStyleBackColor = true;
+            this.waterBuy.Click += new System.EventHandler(this.waterBuy_Click);
             // 
             // titleCar
             // 
