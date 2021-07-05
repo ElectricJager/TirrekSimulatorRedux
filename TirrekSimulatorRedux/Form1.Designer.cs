@@ -132,7 +132,6 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.tirrekImg, "tirrekImg");
             this.tirrekImg.Name = "tirrekImg";
             this.tirrekImg.TabStop = false;
-            this.tirrekImg.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // title
             // 
@@ -143,7 +142,6 @@ namespace TirrekSimulatorRedux
             // 
             resources.ApplyResources(this.money, "money");
             this.money.Name = "money";
-            this.money.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
