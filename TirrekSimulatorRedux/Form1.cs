@@ -50,6 +50,18 @@ namespace TirrekSimulatorRedux
                 tesbihBuy.Text = "Alındı";
             if (Program.Items.inventory["necklace"] == true)
                 necklaceBuy.Text = "Alındı";
+            if (Program.Items.inventory["tofas"] == true)
+                tofasBuy.Text = "Alındı";
+            if (Program.Items.inventory["bmw"] == true)
+                bmwBuy.Text = "Alındı";
+            if (Program.Items.inventory["flip"] == true)
+                flipBuy.Text = "Alındı";
+            else
+                flipBuy.Text = "Satın Al";
+            if (Program.Items.inventory["butterfly"] == true)
+                butterflyBuy.Text = "Alındı";
+            else
+                butterflyBuy.Text = "Satın Al";
             money.Text = $"Paran: {Program.Stats.money} TL Kekoluk Levelin: {Program.Stats.kekoluk}";
             health.Text = $"Can Puanı: {Program.Stats.health}/{Program.Stats.maxHealth}";
             hunger.Text = $"Açlık: {Program.Stats.hunger}";
@@ -141,7 +153,8 @@ namespace TirrekSimulatorRedux
                 if (Program.Items.inventory["tracksuit"] == false)
                 {
                     Program.Items.inventory["tracksuit"] = true;
-                    Program.Stats.kekoluk += 11;
+                    Program.Stats.kekoluk += 15;
+                    check.KekoSet();
                     UpdateStats();
                 }
                 else
@@ -157,7 +170,8 @@ namespace TirrekSimulatorRedux
                 if (Program.Items.inventory["shoes"] == false)
                 {
                     Program.Items.inventory["shoes"] = true;
-                    Program.Stats.kekoluk += 22;
+                    Program.Stats.kekoluk += 25;
+                    check.KekoSet();
                     UpdateStats();
                 }
                 else
@@ -173,7 +187,8 @@ namespace TirrekSimulatorRedux
                 if (Program.Items.inventory["tesbih"] == false)
                 {
                     Program.Items.inventory["tesbih"] = true;
-                    Program.Stats.kekoluk += 1;
+                    Program.Stats.kekoluk += 3;
+                    check.KekoSet();
                     UpdateStats();
                 }
                 else
@@ -189,7 +204,78 @@ namespace TirrekSimulatorRedux
                 if (Program.Items.inventory["necklace"] == false)
                 {
                     Program.Items.inventory["necklace"] = true;
-                    Program.Stats.kekoluk += 3;
+                    Program.Stats.kekoluk += 6;
+                    check.KekoSet();
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void tofasBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(6000))
+            {
+                if (Program.Items.inventory["tofas"] == false)
+                {
+                    Program.Items.inventory["tofas"] = true;
+                    Program.Stats.kekoluk += 35;
+                    check.CarSet();
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void bmwBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(12000))
+            {
+                if (Program.Items.inventory["bmw"] == false)
+                {
+                    Program.Items.inventory["bmw"] = true;
+                    Program.Stats.kekoluk += 60;
+                    check.CarSet();
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void flipBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(15))
+            {
+                if (Program.Items.inventory["flip"] == false)
+                {
+                    Program.Items.inventory["flip"] = true;
+                    if (!Program.Stats.flipCaught)
+                        Program.Stats.kekoluk += 6;
+                    check.KnifeSet();
+                    UpdateStats();
+                }
+                else
+                    AlreadyHaveMsg();
+            }
+        }
+
+        private void butterflyBuy_Click(object sender, EventArgs e)
+        {
+            var check = new Program.Check();
+            if (check.Money(100))
+            {
+                if (Program.Items.inventory["butterfly"] == false)
+                {
+                    Program.Items.inventory["butterfly"] = true;
+                    if (!Program.Stats.butterflyCaught)
+                        Program.Stats.kekoluk += 25;
+                    check.KnifeSet();
                     UpdateStats();
                 }
                 else
