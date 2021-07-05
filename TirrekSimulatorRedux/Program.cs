@@ -34,6 +34,83 @@ namespace TirrekSimulatorRedux
             Application.Run(new Form1());
         }
 
+        public class Walk
+        {
+            public void Start()
+            {
+
+            }
+        }
+        public class Check
+        {
+            public void NewDay()
+            {
+                Stats.hunger--;
+                Stats.thirst--;
+                Status();
+            }
+            public void Status()
+            {
+                Health();
+                Hunger();
+                Thirst();
+            }
+            void Health()
+            {
+                if (Stats.health <= 0)
+                {
+                    Death(0);
+                }
+                if (Stats.health > Stats.maxHealth)
+                {
+                    Stats.health = Stats.maxHealth;
+                }
+            }
+
+            public bool Money(int price)
+            {
+                if (Stats.money < price)
+                {
+                    MessageBox.Show($"Amk fakiri sfdsjhguıdfehg\nParan: {Stats.money} TL Gereken: {price} TL", "Tirrek Simulator Redux");
+                    return false;
+                }
+                Stats.money -= price;
+                return true;
+            }
+
+            void Hunger()
+            {
+                if (Stats.hunger <= 0)
+                    Death(1);
+            }
+
+            void Thirst()
+            {
+                if (Stats.thirst <= 0)
+                    Death(2);
+            }
+
+            public void Death(int reason)
+            {
+                string x = "";
+                switch (reason)
+                {
+                    case 0:
+                        x = "Öldün";
+                        break;
+                    case 1:
+                        x = "Açlıktan öldün";
+                        break;
+                    case 2:
+                        x = "Susuzluktan öldün";
+                        break;
+                    default:
+                        break;
+                }
+                MessageBox.Show($"{x} amk\n\nF\n\nÇımak için tamam'a bas", "Tirrek Simulator Redux");
+                Application.Exit();
+            }
+        }
         public struct Stats
         {
             public static int health = 10, hunger = 11, thirst = 11, kekoluk = 0;
