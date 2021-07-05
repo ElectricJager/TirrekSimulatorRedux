@@ -89,20 +89,16 @@ namespace TirrekSimulatorRedux
             this.titleMarket = new System.Windows.Forms.Label();
             this.tracksuitImg = new System.Windows.Forms.PictureBox();
             this.tracksuitTitle = new System.Windows.Forms.Label();
-            this.tracksuitPrice = new System.Windows.Forms.Label();
             this.tracksuitInfo = new System.Windows.Forms.Label();
             this.tracksuitBuy = new System.Windows.Forms.Button();
             this.shoeImg = new System.Windows.Forms.PictureBox();
             this.shoeTitle = new System.Windows.Forms.Label();
-            this.shoePrice = new System.Windows.Forms.Label();
             this.ShoeInfo = new System.Windows.Forms.Label();
             this.tesbihImg = new System.Windows.Forms.PictureBox();
             this.TesbihTitle = new System.Windows.Forms.Label();
-            this.tesbihPrice = new System.Windows.Forms.Label();
             this.tesbihInfo = new System.Windows.Forms.Label();
             this.necklaceImg = new System.Windows.Forms.PictureBox();
             this.necklaceTitle = new System.Windows.Forms.Label();
-            this.necklacePrice = new System.Windows.Forms.Label();
             this.necklaceInfo = new System.Windows.Forms.Label();
             this.shoeBuy = new System.Windows.Forms.Button();
             this.tesbihBuy = new System.Windows.Forms.Button();
@@ -374,11 +370,6 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.tracksuitTitle, "tracksuitTitle");
             this.tracksuitTitle.Name = "tracksuitTitle";
             // 
-            // tracksuitPrice
-            // 
-            resources.ApplyResources(this.tracksuitPrice, "tracksuitPrice");
-            this.tracksuitPrice.Name = "tracksuitPrice";
-            // 
             // tracksuitInfo
             // 
             resources.ApplyResources(this.tracksuitInfo, "tracksuitInfo");
@@ -401,11 +392,6 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.shoeTitle, "shoeTitle");
             this.shoeTitle.Name = "shoeTitle";
             // 
-            // shoePrice
-            // 
-            resources.ApplyResources(this.shoePrice, "shoePrice");
-            this.shoePrice.Name = "shoePrice";
-            // 
             // ShoeInfo
             // 
             resources.ApplyResources(this.ShoeInfo, "ShoeInfo");
@@ -422,11 +408,6 @@ namespace TirrekSimulatorRedux
             resources.ApplyResources(this.TesbihTitle, "TesbihTitle");
             this.TesbihTitle.Name = "TesbihTitle";
             // 
-            // tesbihPrice
-            // 
-            resources.ApplyResources(this.tesbihPrice, "tesbihPrice");
-            this.tesbihPrice.Name = "tesbihPrice";
-            // 
             // tesbihInfo
             // 
             resources.ApplyResources(this.tesbihInfo, "tesbihInfo");
@@ -442,11 +423,6 @@ namespace TirrekSimulatorRedux
             // 
             resources.ApplyResources(this.necklaceTitle, "necklaceTitle");
             this.necklaceTitle.Name = "necklaceTitle";
-            // 
-            // necklacePrice
-            // 
-            resources.ApplyResources(this.necklacePrice, "necklacePrice");
-            this.necklacePrice.Name = "necklacePrice";
             // 
             // necklaceInfo
             // 
@@ -484,20 +460,16 @@ namespace TirrekSimulatorRedux
             this.Controls.Add(this.tesbihBuy);
             this.Controls.Add(this.shoeBuy);
             this.Controls.Add(this.necklaceInfo);
-            this.Controls.Add(this.necklacePrice);
             this.Controls.Add(this.necklaceTitle);
             this.Controls.Add(this.necklaceImg);
             this.Controls.Add(this.tesbihInfo);
-            this.Controls.Add(this.tesbihPrice);
             this.Controls.Add(this.TesbihTitle);
             this.Controls.Add(this.tesbihImg);
             this.Controls.Add(this.ShoeInfo);
-            this.Controls.Add(this.shoePrice);
             this.Controls.Add(this.shoeTitle);
             this.Controls.Add(this.shoeImg);
             this.Controls.Add(this.tracksuitBuy);
             this.Controls.Add(this.tracksuitInfo);
-            this.Controls.Add(this.tracksuitPrice);
             this.Controls.Add(this.tracksuitTitle);
             this.Controls.Add(this.tracksuitImg);
             this.Controls.Add(this.titleMarket);
@@ -613,20 +585,16 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Label titleMarket;
         private System.Windows.Forms.PictureBox tracksuitImg;
         private System.Windows.Forms.Label tracksuitTitle;
-        private System.Windows.Forms.Label tracksuitPrice;
         private System.Windows.Forms.Label tracksuitInfo;
         private System.Windows.Forms.Button tracksuitBuy;
         private System.Windows.Forms.PictureBox shoeImg;
         private System.Windows.Forms.Label shoeTitle;
-        private System.Windows.Forms.Label shoePrice;
         private System.Windows.Forms.Label ShoeInfo;
         private System.Windows.Forms.PictureBox tesbihImg;
         private System.Windows.Forms.Label TesbihTitle;
-        private System.Windows.Forms.Label tesbihPrice;
         private System.Windows.Forms.Label tesbihInfo;
         private System.Windows.Forms.PictureBox necklaceImg;
         private System.Windows.Forms.Label necklaceTitle;
-        private System.Windows.Forms.Label necklacePrice;
         private System.Windows.Forms.Label necklaceInfo;
         private System.Windows.Forms.Button shoeBuy;
         private System.Windows.Forms.Button tesbihBuy;
