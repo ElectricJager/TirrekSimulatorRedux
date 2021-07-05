@@ -28,6 +28,7 @@ namespace TirrekSimulatorRedux
     {
         public Form1()
         {
+            
             var check = new Program.Check();
             InitializeComponent();
             check.NewDay();
@@ -35,6 +36,8 @@ namespace TirrekSimulatorRedux
             health.Text = $"Can Puanı: {Program.Stats.health}/{Program.Stats.maxHealth}";
             hunger.Text = $"Açlık: {Program.Stats.hunger}";
             thirst.Text = $"Susuzluk: {Program.Stats.thirst}";
+            var splashScreen = new SplashScreen();
+            splashScreen.Show();
         }
 
         void UpdateStats()
