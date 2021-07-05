@@ -77,6 +77,27 @@ namespace TirrekSimulatorRedux
             this.butterflyPrice = new System.Windows.Forms.Label();
             this.flipBuy = new System.Windows.Forms.Button();
             this.butterflyBuy = new System.Windows.Forms.Button();
+            this.titleMarket = new System.Windows.Forms.Label();
+            this.tracksuitImg = new System.Windows.Forms.PictureBox();
+            this.tracksuitTitle = new System.Windows.Forms.Label();
+            this.tracksuitPrice = new System.Windows.Forms.Label();
+            this.tracksuitInfo = new System.Windows.Forms.Label();
+            this.tracksuitBuy = new System.Windows.Forms.Button();
+            this.shoeImg = new System.Windows.Forms.PictureBox();
+            this.shoeTitle = new System.Windows.Forms.Label();
+            this.shoePrice = new System.Windows.Forms.Label();
+            this.ShoeInfo = new System.Windows.Forms.Label();
+            this.tesbihImg = new System.Windows.Forms.PictureBox();
+            this.TesbihTitle = new System.Windows.Forms.Label();
+            this.tesbihPrice = new System.Windows.Forms.Label();
+            this.tesbihInfo = new System.Windows.Forms.Label();
+            this.necklaceImg = new System.Windows.Forms.PictureBox();
+            this.necklaceTitle = new System.Windows.Forms.Label();
+            this.necklacePrice = new System.Windows.Forms.Label();
+            this.necklaceInfo = new System.Windows.Forms.Label();
+            this.shoeBuy = new System.Windows.Forms.Button();
+            this.tesbihBuy = new System.Windows.Forms.Button();
+            this.necklaceBuy = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tirrekImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disketteImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donerImg)).BeginInit();
@@ -87,6 +108,10 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.bmwImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.flipImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.butterflyImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tracksuitImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoeImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tesbihImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.necklaceImg)).BeginInit();
             this.SuspendLayout();
             // 
             // tirrekImg
@@ -347,10 +372,144 @@ namespace TirrekSimulatorRedux
             this.butterflyBuy.Name = "butterflyBuy";
             this.butterflyBuy.UseVisualStyleBackColor = true;
             // 
+            // titleMarket
+            // 
+            resources.ApplyResources(this.titleMarket, "titleMarket");
+            this.titleMarket.Name = "titleMarket";
+            // 
+            // tracksuitImg
+            // 
+            resources.ApplyResources(this.tracksuitImg, "tracksuitImg");
+            this.tracksuitImg.Name = "tracksuitImg";
+            this.tracksuitImg.TabStop = false;
+            // 
+            // tracksuitTitle
+            // 
+            resources.ApplyResources(this.tracksuitTitle, "tracksuitTitle");
+            this.tracksuitTitle.Name = "tracksuitTitle";
+            // 
+            // tracksuitPrice
+            // 
+            resources.ApplyResources(this.tracksuitPrice, "tracksuitPrice");
+            this.tracksuitPrice.Name = "tracksuitPrice";
+            // 
+            // tracksuitInfo
+            // 
+            resources.ApplyResources(this.tracksuitInfo, "tracksuitInfo");
+            this.tracksuitInfo.Name = "tracksuitInfo";
+            // 
+            // tracksuitBuy
+            // 
+            resources.ApplyResources(this.tracksuitBuy, "tracksuitBuy");
+            this.tracksuitBuy.Name = "tracksuitBuy";
+            this.tracksuitBuy.UseVisualStyleBackColor = true;
+            // 
+            // shoeImg
+            // 
+            resources.ApplyResources(this.shoeImg, "shoeImg");
+            this.shoeImg.Name = "shoeImg";
+            this.shoeImg.TabStop = false;
+            // 
+            // shoeTitle
+            // 
+            resources.ApplyResources(this.shoeTitle, "shoeTitle");
+            this.shoeTitle.Name = "shoeTitle";
+            // 
+            // shoePrice
+            // 
+            resources.ApplyResources(this.shoePrice, "shoePrice");
+            this.shoePrice.Name = "shoePrice";
+            // 
+            // ShoeInfo
+            // 
+            resources.ApplyResources(this.ShoeInfo, "ShoeInfo");
+            this.ShoeInfo.Name = "ShoeInfo";
+            // 
+            // tesbihImg
+            // 
+            resources.ApplyResources(this.tesbihImg, "tesbihImg");
+            this.tesbihImg.Name = "tesbihImg";
+            this.tesbihImg.TabStop = false;
+            // 
+            // TesbihTitle
+            // 
+            resources.ApplyResources(this.TesbihTitle, "TesbihTitle");
+            this.TesbihTitle.Name = "TesbihTitle";
+            // 
+            // tesbihPrice
+            // 
+            resources.ApplyResources(this.tesbihPrice, "tesbihPrice");
+            this.tesbihPrice.Name = "tesbihPrice";
+            // 
+            // tesbihInfo
+            // 
+            resources.ApplyResources(this.tesbihInfo, "tesbihInfo");
+            this.tesbihInfo.Name = "tesbihInfo";
+            // 
+            // necklaceImg
+            // 
+            resources.ApplyResources(this.necklaceImg, "necklaceImg");
+            this.necklaceImg.Name = "necklaceImg";
+            this.necklaceImg.TabStop = false;
+            // 
+            // necklaceTitle
+            // 
+            resources.ApplyResources(this.necklaceTitle, "necklaceTitle");
+            this.necklaceTitle.Name = "necklaceTitle";
+            // 
+            // necklacePrice
+            // 
+            resources.ApplyResources(this.necklacePrice, "necklacePrice");
+            this.necklacePrice.Name = "necklacePrice";
+            // 
+            // necklaceInfo
+            // 
+            resources.ApplyResources(this.necklaceInfo, "necklaceInfo");
+            this.necklaceInfo.Name = "necklaceInfo";
+            // 
+            // shoeBuy
+            // 
+            resources.ApplyResources(this.shoeBuy, "shoeBuy");
+            this.shoeBuy.Name = "shoeBuy";
+            this.shoeBuy.UseVisualStyleBackColor = true;
+            // 
+            // tesbihBuy
+            // 
+            resources.ApplyResources(this.tesbihBuy, "tesbihBuy");
+            this.tesbihBuy.Name = "tesbihBuy";
+            this.tesbihBuy.UseVisualStyleBackColor = true;
+            // 
+            // necklaceBuy
+            // 
+            resources.ApplyResources(this.necklaceBuy, "necklaceBuy");
+            this.necklaceBuy.Name = "necklaceBuy";
+            this.necklaceBuy.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.necklaceBuy);
+            this.Controls.Add(this.tesbihBuy);
+            this.Controls.Add(this.shoeBuy);
+            this.Controls.Add(this.necklaceInfo);
+            this.Controls.Add(this.necklacePrice);
+            this.Controls.Add(this.necklaceTitle);
+            this.Controls.Add(this.necklaceImg);
+            this.Controls.Add(this.tesbihInfo);
+            this.Controls.Add(this.tesbihPrice);
+            this.Controls.Add(this.TesbihTitle);
+            this.Controls.Add(this.tesbihImg);
+            this.Controls.Add(this.ShoeInfo);
+            this.Controls.Add(this.shoePrice);
+            this.Controls.Add(this.shoeTitle);
+            this.Controls.Add(this.shoeImg);
+            this.Controls.Add(this.tracksuitBuy);
+            this.Controls.Add(this.tracksuitInfo);
+            this.Controls.Add(this.tracksuitPrice);
+            this.Controls.Add(this.tracksuitTitle);
+            this.Controls.Add(this.tracksuitImg);
+            this.Controls.Add(this.titleMarket);
             this.Controls.Add(this.butterflyBuy);
             this.Controls.Add(this.flipBuy);
             this.Controls.Add(this.butterflyPrice);
@@ -410,6 +569,10 @@ namespace TirrekSimulatorRedux
             ((System.ComponentModel.ISupportInitialize)(this.bmwImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.flipImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.butterflyImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tracksuitImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoeImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tesbihImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.necklaceImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -464,6 +627,27 @@ namespace TirrekSimulatorRedux
         private System.Windows.Forms.Label butterflyPrice;
         private System.Windows.Forms.Button flipBuy;
         private System.Windows.Forms.Button butterflyBuy;
+        private System.Windows.Forms.Label titleMarket;
+        private System.Windows.Forms.PictureBox tracksuitImg;
+        private System.Windows.Forms.Label tracksuitTitle;
+        private System.Windows.Forms.Label tracksuitPrice;
+        private System.Windows.Forms.Label tracksuitInfo;
+        private System.Windows.Forms.Button tracksuitBuy;
+        private System.Windows.Forms.PictureBox shoeImg;
+        private System.Windows.Forms.Label shoeTitle;
+        private System.Windows.Forms.Label shoePrice;
+        private System.Windows.Forms.Label ShoeInfo;
+        private System.Windows.Forms.PictureBox tesbihImg;
+        private System.Windows.Forms.Label TesbihTitle;
+        private System.Windows.Forms.Label tesbihPrice;
+        private System.Windows.Forms.Label tesbihInfo;
+        private System.Windows.Forms.PictureBox necklaceImg;
+        private System.Windows.Forms.Label necklaceTitle;
+        private System.Windows.Forms.Label necklacePrice;
+        private System.Windows.Forms.Label necklaceInfo;
+        private System.Windows.Forms.Button shoeBuy;
+        private System.Windows.Forms.Button tesbihBuy;
+        private System.Windows.Forms.Button necklaceBuy;
     }
 }
 
