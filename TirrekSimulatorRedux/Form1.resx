@@ -12662,7 +12662,7 @@ Can Puanı +1</value>
   <data name="topkekImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAb4AAAH0CAYAAABCTkjjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7s/WV4Xke6LYren/c+5znn7L1Wd8C2mJmZZUlmO47jOHESh5nZYU46
+        vQAADr0BR/uQrQAA/7JJREFUeF7s/WV4Xke6LYren/c+5znn7L1Wd8C2mJmZZUlmO47jOHESh5nZYU46
         zOiwk5iZWWDJYmYyM7NlGneMmirna23ZvfZazzm7eyfuHpmfJtSsWbPmO95R9VbV/+f8+fP4E3/iXxE4
         14uzLr97oePn4OAMcboXp3pxsnerZCzOADwHPObgWC+O9gPtP0zsI/YQh3r36XqldSEx4Sxxzvmpcw4S
         9rr9vX8fYl6Ewzz5KHGMZ59AD/MonGRyxw3O86gAHOEZJ819lZbScfJwlnt1/hHe8gD3CDpDqR8hjnN/
@@ -19862,7 +19862,7 @@ Susuzluk +1</value>
     <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="titleCar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 350</value>
+    <value>235, 363</value>
   </data>
   <data name="titleCar.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 25</value>
@@ -25784,7 +25784,7 @@ Susuzluk +1</value>
   <data name="tracksuitImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAABqCAIAAAD4GAIVAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAXV1JREFUeF7tvQV4HOe59q+YxVpmZmYG7YoZDYnjcNI20KRNQ00aaBqnDTWcOIbE
+        vwAADr8BOAVTJAAAXV1JREFUeF7tvQV4HOe59q+YxVpmZmYG7YoZDYnjcNI20KRNQ00aaBqnDTWcOIbE
         HKMsM8kggywZZVmyZZJsy8wgpv3u2XGcnPOdNk7P+fq//td13kzGM7Pv7sz85p77eZ6Z2VVM5H+0DUZ6
         eyPX+iI3+yLtfZGu/kj/YGRgAC/0RyK9eLW7u//qtStXr1+7dj3aOjs6Mb72w+y/v/3bVv0/DBptEGgH
         iTExgPFgJEKM8f/V/sjVwUgn+vQRHXt7uzuuXbuKXf3/CjS5arTb8/+x/aeXyNk77fbSu27/Y6AHBwcH
@@ -26326,7 +26326,7 @@ Susuzluk +1</value>
   <data name="shoeImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAABmCAIAAABp8wkqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAY7VJREFUeF61/QV4FNm2/w/nnHPvnHtGkUh73N3d3YUACe7u7h7cJYGgQZIQiLsQ
+        vwAADr8BOAVTJAAAY7VJREFUeF61/QV4FNm2/w/nnHPvnHtGkUh73N3d3YUACe7u7h7cJYGgQZIQiLsQ
         AnFvd5c4MsAMTv9XdYWmJzDnzL3v783zffazatXu6qrPXnvtvavT1Vo0PucvispjkzlMKL8p2IXupXBZ
         amn61eplMzTr/JmgmmZNOIja/isa86ZUHpwMXAJ3jChcuDQeKjIHqn3xoxpTBzbpAj4IbLUfrQkG+JEK
         fB6DqyHeN/T/njuUKDKUmtqvlibNfyP1EVChx1Fv/keNedP/FXeUI6oxdWDzP3KnQrXPov2fuaMXAFfy
@@ -26868,7 +26868,7 @@ Susuzluk +1</value>
   <data name="tesbihImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHwAAABRCAIAAACfTlUBAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAJAdJREFUeF7tnAdYU1f/x2OtE0TZI+y99x6yQQQRBQQUkCEbGSoICgiCylABFREr
+        vwAADr8BOAVTJAAAJAdJREFUeF7tnAdYU1f/x2OtE0TZI+y99x6yQQQRBQQUkCEbGSoICgiCylABFREr
         7oUDt0VF9t57j7BnGJkkkOR/LvFvrdW+1vZ9Wyvf5zzxhickN5/7Pb9xzkUYZUl/uciLg3rwKcEoJDJV
         1OcfHi/pY70HAw5+Z5DIvx3kBdL744+hL+n39B7Se76fHB+w/uSAQbipT8Drl9B/oaicqIg/Nz6g/NGA
         nL74Bkv6Wn0I+qNB+jT6Jeh/Qh/y/dyAuFPR/3IBlqD/CX0I93NjCfp/RVR+7yl/bvwKOni+pL9WH7L+
@@ -27139,7 +27139,7 @@ Susuzluk +1</value>
   <data name="necklaceImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIQAAAB8CAIAAAAn54+EAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAMZpJREFUeF7tfQdYk2fb9vd///t/3/+2VfbeK+wRSAJJCCMJGYwAYQUChL3de2td
+        vwAADr8BOAVTJAAAMZpJREFUeF7tfQdYk2fb9vd///t/3/+2VfbeK+wRSAJJCCMJGYwAYQUChL3de2td
         bbVVW2ttq622amu11lpbbV11DxygogKyN4QkkL2/60nQt33rOxSr+B2cx22OkDx5xnVe47zu5078D/0k
         JgwmyZhAmCRjAmGSjAmESTImECbJmECYJGMCYZKMCYRJMiYQJsmYQJgkYwJhkowJhEkyJhAmyZhAmCRj
         AmGSjAmESTImECbJmECYJGMCYZKMCYRJMiYQJsmYQJgkYwJhYpOh0+vGoNHrtWMvjkGr1ap1erler1Br
