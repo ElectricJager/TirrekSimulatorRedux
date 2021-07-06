@@ -66,7 +66,7 @@ namespace TirrekSimulatorRedux
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(400, 24);
             this.version.TabIndex = 70;
-            this.version.Text = "0.1.0 © 2021 ElectricJager";
+            this.version.Text = "0.1.1 © 2021 ElectricJager";
             this.version.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
@@ -89,8 +89,9 @@ namespace TirrekSimulatorRedux
             this.Controls.Add(this.version);
             this.Controls.Add(this.githubLink);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SplashScreen";
-            this.Text = "SplashScreen";
+            this.Text = "Tirrek Simulator Redux";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
